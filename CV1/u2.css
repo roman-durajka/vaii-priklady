@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Red_Circle%28small%29.svg/29px-Red_Circle%28small%29.svg.png');
+}
+
+li li {
+    list-style-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Red_Circle%28small%29.svg/29px-Red_Circle%28small%29.svg.png');
+}
+
+li li:first-child {
+    color: red;
+}
+
+li li:last-child {
+    color: green;
+}
+
+li li:nth-child(2) {
+    color: orange;
+}
+
+li li:hover {
+    background-color: red;
+}
