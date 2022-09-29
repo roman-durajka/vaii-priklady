@@ -1,0 +1,21 @@
+body {
+    background-image: url(
+	https://upload.wikimedia.org/wikipedia/commons/b/be/SI-Sky.JPG);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+}
+
+.sun {
+    width: 200px;
+    height: 200px;
+    background-image: url(
+	https://static9.depositphotos.com/1289313/1137/v/600/depositphotos_11376587-stock-illustration-the-sun-burning-like-flame.jpg
+    );
+    background-size: cover;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
